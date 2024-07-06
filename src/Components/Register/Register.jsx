@@ -31,7 +31,7 @@ export default function Register() {
                     value={Formik.values.name}
                     onChange={Formik.handleChange}
                     onBlur={Formik.handleBlur}
-                    />
+                />
 
                 <label className='form-label text-main fw-bold d-block text-start mt-4' htmlFor="email">Email</label>
                 <input 
@@ -41,7 +41,7 @@ export default function Register() {
                     value={Formik.values.email}
                     onChange={Formik.handleChange}
                     onBlur={Formik.handleBlur}
-                    />
+                />
 
                 <label className='form-label text-main fw-bold d-block text-start mt-4' htmlFor="phone">phone</label>
                 <input 
@@ -51,7 +51,7 @@ export default function Register() {
                     value={Formik.values.phone}
                     onChange={Formik.handleChange}
                     onBlur={Formik.handleBlur}
-                    />
+                />
 
                 <label className='form-label text-main fw-bold d-block text-start mt-4' htmlFor="password">password</label>
                 <input 
@@ -61,7 +61,7 @@ export default function Register() {
                     value={Formik.values.password}
                     onChange={Formik.handleChange}
                     onBlur={Formik.handleBlur}
-                    />
+                />
 
                 <label className='form-label text-main fw-bold d-block text-start mt-4' htmlFor="rePassword">Re-Password</label>
                 <input 
@@ -71,7 +71,7 @@ export default function Register() {
                     value={Formik.values.rePassword}
                     onChange={Formik.handleChange}
                     onBlur={Formik.handleBlur}
-                    />
+                />
                 
                 <button className='btn bg-main text-white mt-3' type='submit'>Register</button>
             </form>
